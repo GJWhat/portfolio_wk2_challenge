@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    background-color: grey;
+    color: white;
+  }
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2.5;
+  }
+  .flexItem {
+    display: flex;
+    flex-direction: column;
+    background-color: light blue;
+    padding: 100px;
+    margin: 10px;
+  }
+  
+  .row {
+    display:flex;
+    justify-content:space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+  }
+  .small-image {
+    width: 1000px;
+    height: 300px;
+  }
+  
+  
+  
+  h1 {
+  Font-weight: 0;
+  font-size: 50px;
+  
+  
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  /* Hero Section */
+  header {
+    height: 100px;
+    margin: 5px;
+    padding: 50px;
+  }
+  
+  nav { 
+    Padding: 20% 20%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media only scren and (max-width:768){
+    flex-direction: column;
+    position:relative;
+  
+  
+  }
